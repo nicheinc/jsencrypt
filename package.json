@@ -1,5 +1,5 @@
 {
-    "name": "jsencrypt",
+    "name": "@nicheinc/jsencrypt",
     "version": "3.3.1",
     "description": "A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.",
     "main": "bin/jsencrypt.js",
@@ -60,12 +60,12 @@
         }
     ],
     "homepage": "http://www.travistidwell.com/jsencrypt",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/travist/jsencrypt.git"
-    },
+    "repository": "https://github.com/nicheinc/jsencrypt",
     "bugs": {
-        "url": "http://github.com/travist/jsencrypt/issues"
+        "url": "http://github.com/nicheinc/jsencrypt/issues"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/nicheinc"
+    }
 }
